@@ -7,7 +7,7 @@ export default function MainLayout() {
     <div>
       <nav className="nav navbar navbar-expand-lg navbar-light bg-white py-1 shadow-sm sticky-top">
         <div className="container">
-          <Navbar />
+          <Navbar /> Test
         </div>
       </nav>
 
