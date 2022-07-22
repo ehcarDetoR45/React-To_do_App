@@ -1,4 +1,5 @@
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Pages from "../components/Pages";
 
 export default function MainLayout() {
@@ -14,7 +15,11 @@ export default function MainLayout() {
         <Pages />
       </main>
 
-      <footer >do the layout and make footerr component</footer>
+      <footer className="">
+        <div className="container">
+          <Footer />
+        </div>
+      </footer>
     </div>
   );
 }
